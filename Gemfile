@@ -14,16 +14,17 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
-gem 'sass-rails', '~> 4.0.2'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails', '4.0.2'
+gem 'bcrypt-ruby', '3.1.2'
+gem 'bootstrap-sass', '~> 3.1.1'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'therubyracer', platforms: :ruby
-gem 'bootstrap-sass'
 gem 'jquery-rails'
-gem 'jquery-ui-rails' 
+gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
 gem 'turbolinks'
-gem 'jbuilder', '~> 1.2' 
+gem 'jbuilder', '~> 1.2'
 
 
 group :doc do
